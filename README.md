@@ -2,6 +2,10 @@
 
 This quick prototype allows you to find your nearest cinema, and what films they're showing today.
 
+## How does it work
+
+When you go to it, you'll be asked to enter your postcode. Hitting the button will tell you your nearest cinema. You can click the link to load in all films showing there today, and the times those films are available.
+
 ## Setup
 
 You should be able to set it up with a simple `git clone`, `bundle` and `rails s`.
