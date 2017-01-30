@@ -1,19 +1,17 @@
 module CinemaService
-  class Lookup
+  class Lookup < Base
     def initialize(postcode)
       @postcode = postcode
-      @conn = Faraday.new(url: 'http://moviesapi.herokuapp.com')
     end
 
     def closest
-      Cinema.new(find.first)
+      Cinema.new(lookup)
     end
 
     private
 
-    def find
-      response = @conn.get "/cinemas/find/#{postcode}"
-      JSON.parse(response.body)
+    def lookup
+      request("/cinemas/find/#{postcode}").first
     end
 
     def postcode

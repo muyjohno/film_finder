@@ -1,17 +1,17 @@
 module CinemaService
-  class Showings
-    attr_reader :cinema_id
-
+  class Showings < Base
     def initialize(cinema_id)
       @cinema_id = cinema_id
-      @conn = Faraday.new(url: 'http://moviesapi.herokuapp.com')
     end
 
     def get
-      response = @conn.get "/cinemas/#{cinema_id}/showings"
-      JSON.parse(response.body).map do |film_data|
-        Film.new(film_data)
-      end
+      showings.map { |data| Film.new(data) }
+    end
+
+    private
+
+    def showings
+      request("/cinemas/#{@cinema_id}/showings")
     end
   end
 end
