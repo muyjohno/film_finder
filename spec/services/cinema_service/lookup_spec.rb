@@ -14,6 +14,7 @@ RSpec.describe CinemaService::Lookup do
         expect(closest.address).to eq(
           'VUE Reading, The Oracle Centre, Off Mill Lane North, Reading, , RG1 2AG'
         )
+        expect(closest.id).to eq('9524')
       end
     end
   end

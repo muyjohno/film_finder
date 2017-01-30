@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://moviesapi.herokuapp.com/cinemas/9524/showings
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1106'
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.3.1/2016-04-26)
+      Date:
+      - Mon, 30 Jan 2017 20:30:49 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '[{"title":"Sing","link":"","time":["10:00","10:35","11:35","13:00","14:05","16:20","17:05","18:15","19:15"]},{"title":"Fantastic
+        Beasts and Where to Find Them","link":"","time":["10:00","22:30"]},{"title":"La
+        La Land","link":"","time":["10:10","11:20","13:05","14:10","15:20","17:15","19:20","20:10"]},{"title":"Rogue
+        One: A Star Wars Story","link":"","time":["10:20"]},{"title":"Raees","link":"","time":["10:20","13:50","18:55","21:50"]},{"title":"Hacksaw
+        Ridge","link":"","time":["10:25","13:20","15:55","19:30","22:35"]},{"title":"T2
+        Trainspotting","link":"","time":["11:00","12:35","13:25","14:20","15:35","16:30","17:40","18:30","19:40","20:30","22:00","22:45"]},{"title":"Kaabil","link":"","time":["12:00","16:05","19:50"]},{"title":"Lion","link":"","time":["13:35","16:40"]},{"title":"Trainspotting","link":"","time":["13:45","16:30","18:30","20:30"]},{"title":"Split","link":"","time":["16:35","19:05","21:10","23:05"]},{"title":"Arrival","link":"","time":["20:00"]},{"title":"xXx:
+        Return of Xander Cage","link":"","time":["20:50","23:15"]},{"title":"Collateral
+        Beauty","link":"","time":["22:20"]}]'
+    http_version: 
+  recorded_at: Mon, 30 Jan 2017 20:30:49 GMT
+recorded_with: VCR 2.9.3
