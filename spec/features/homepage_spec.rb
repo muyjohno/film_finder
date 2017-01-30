@@ -4,6 +4,6 @@ RSpec.describe 'visiting the homepage' do
   end
 
   it 'should show homepage' do
-    expect(page).to have_content('Hello world!')
+    expect(page).to have_content('Enter a postcode')
   end
 end

@@ -1,0 +1,9 @@
+= form_tag cinema_path, method: :get, remote: true do
+  p Enter a postcode!
+  = text_field_tag :postcode, 'RG2 9FB'
+  = submit_tag 'Find nearest cinema!'
+
+#cinema
+  h3 Your nearest cinema
+  h1.name
+  h2.address
