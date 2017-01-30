@@ -1,24 +1,27 @@
-# README
+# film_finder
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This quick prototype allows you to find your nearest cinema, and what films they're showing today.
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
+You should be able to set it up with a simple `git clone`, `bundle` and `rails s`.
 
-* System dependencies
+There is no database requirement.
 
-* Configuration
+## API
 
-* Database creation
+This service uses the `moviesapi` here: http://moviesapi.herokuapp.com/
 
-* Database initialization
+It uses Faraday to make the requests.
 
-* How to run the test suite
+## Code
 
-* Services (job queues, cache servers, search engines, etc.)
+Most of the cool stuff is in the `app/services` folder. There are some really bare models too, but they're boring. The app uses unobtrusive JS to display the data and `slim` to template its only real view.
 
-* Deployment instructions
+The two services have some functionality in common, so I refactored that into a base class.
 
-* ...
+## Tests
+
+I added some RSpec tests covering the services and a basic feature spec to check the home page loads.
+
+I used VCR to mock http requests to make testing the API calls more consistent.
