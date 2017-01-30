@@ -1,0 +1,94 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://moviesapi.herokuapp.com/cinemas/find/RG29FB
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '5759'
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.3.1/2016-04-26)
+      Date:
+      - Mon, 30 Jan 2017 20:24:39 GMT
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '[{"venue_id":"9524","name":"VUE Reading,","address":"VUE Reading, The
+        Oracle Centre, Off Mill Lane North, Reading, , RG1 2AG","url":"https://www.myvue.com/cinema/reading?SC_CMP=AFF_indtrust","distance":""},{"venue_id":"9397","name":"Odeon
+        Bracknell, Bracknell","address":"Odeon Bracknell, Bracknell, Bracknell, RG12
+        1EN","url":"http://","distance":""},{"venue_id":"9676","name":"VUE Camberley,
+        Camberley","address":"VUE Camberley, The Atrium, Park Street, Camberley, Camberley,
+        GU15 3PL","url":"https://www.myvue.com/cinema/camberley?SC_CMP=AFF_indtrust","distance":""},{"venue_id":"9126","name":"VUE
+        Farnborough, Farnborough","address":"VUE Farnborough, Kingsmead Shopping Centre,
+        Queensmead, Farnborough, Farnborough, GU14 7SR","url":"https://www.myvue.com/cinema/farnborough?SC_CMP=AFF_indtrust","distance":""},{"venue_id":"2349","name":"Regal
+        Picturehouse, Henley-on-Thames","address":"Regal Picturehouse, 2 Boroma Way,
+        Henley-on-Thames, RG9 2BZ","url":"https://www.picturehouses.com/cinema/Regal_Picturehouse","distance":""},{"venue_id":"7321","name":"Cineworld
+        Aldershot, Aldershot","address":"Cineworld Aldershot, Westgate, Aldershot,
+        Aldershot, GU11 1WG","url":"http://www1.cineworld.co.uk/cinemas/aldershot","distance":""},{"venue_id":"9486","name":"VUE
+        Basingstoke Festival Place, Basingstoke","address":"VUE Basingstoke Festival
+        Place, Festival Place, New Market Square, Basingstoke, Basingstoke, RG21 7BB","url":"https://www.myvue.com/cinema/basingstoke-festival-place?SC_CMP=AFF_indtrust","distance":""},{"venue_id":"9430","name":"Odeon
+        Maidenhead, Maidenhead","address":"Odeon Maidenhead, Maidenhead, Maidenhead,
+        SL6 1DY","url":"http://","distance":""},{"venue_id":"9334","name":"Odeon Basingstoke,
+        Basingstoke","address":"Odeon Basingstoke, Basingstoke, Basingstoke, RG22
+        6PG","url":"http://www.odeon.co.uk","distance":""},{"venue_id":"7159","name":"Empire
+        Slough, Slough","address":"Empire Slough, Queensmere Centre, Slough, SL1 1DD","url":"http://www.empirecinemas.co.uk","distance":""},{"venue_id":"7164","name":"Empire
+        High Wycombe, High Wycombe","address":"Empire High Wycombe, Crest Road, High
+        Wycombe, HP11 1UA","url":"http://www.empirecinemas.co.uk","distance":""},{"venue_id":"9528","name":"VUE
+        Staines, Staines","address":"VUE Staines, Two Rivers, Mustard Mill Road, Staines,
+        Staines, TW18 4BL","url":"https://www.myvue.com/cinema/staines?SC_CMP=AFF_indtrust","distance":""},{"venue_id":"9364","name":"Odeon
+        Guildford, Guildford","address":"Odeon Guildford, Guildford, Guildford, GU1
+        4SJ","url":"http://","distance":""},{"venue_id":"7551","name":"Cineworld High
+        Wycombe, High Wycombe","address":"Cineworld High Wycombe, Denmark Street,
+        Eden, High Wycombe, High Wycombe, HP11 2DB","url":"http://www1.cineworld.co.uk/cinemas/high-wycombe","distance":""},{"venue_id":"7230","name":"VUE
+        Newbury, Newbury","address":"VUE Newbury, The Kennet Centre, Newbury , Newbury,
+        RG14 5EN","url":"https://www.myvue.com/cinema/newbury?SC_CMP=AFF_indtrust","distance":""},{"venue_id":"7512","name":"Cineworld
+        Didcot, Didcot","address":"Cineworld Didcot, 27 Station Road, Didcot, Didcot,
+        OX11 7NE","url":"http://www1.cineworld.co.uk/cinemas/didcot","distance":""},{"venue_id":"9359","name":"Odeon
+        Uxbridge, Hillingdon","address":"Odeon Uxbridge, Uxbridge, Hillingdon, UB8
+        1GD","url":"http://","distance":""},{"venue_id":"10483","name":"Cineworld
+        London - Feltham, Hounslow","address":"Cineworld London - Feltham, Leisure
+        West, Air Park Way, Feltham, Hounslow, TW13 7LX","url":"http://www1.cineworld.co.uk/cinemas/london-feltham","distance":""},{"venue_id":"9899","name":"Curzon
+        Richmond,","address":"Curzon Richmond, , ,","url":"http://","distance":""},{"venue_id":"9401","name":"Odeon
+        Kingston, Kingston Upon Thames","address":"Odeon Kingston, Kingston, Kingston
+        Upon Thames, KT1 1QP","url":"http://","distance":""},{"venue_id":"9502","name":"VUE
+        Oxford, Oxford","address":"VUE Oxford, Ozone Leisure Park, Grenoble Road,
+        Oxford, Oxford, OX4 4XP","url":"https://www.myvue.com/cinema/oxford?SC_CMP=AFF_indtrust","distance":""},{"venue_id":"9335","name":"Odeon
+        Richmond, Richmond","address":"Odeon Richmond, Richmond, Richmond, TW9 1RW","url":"http://www.odeon.co.uk","distance":""},{"venue_id":"4295","name":"Dorking
+        Halls, Dorking","address":"Dorking Halls, Reigate Road, Dorking, RH4 1SG","url":"http://www.dorkinghalls.co.uk","distance":""},{"venue_id":"9630","name":"Odeon
+        Andover, Andover","address":"Odeon Andover, Andover, Andover, SP10 2RW","url":"http://","distance":""},{"venue_id":"9503","name":"VUE
+        Harrow, Harrow","address":"VUE Harrow, St George''s Shopping &amp; Leisure
+        Centre, St Anne''s Road, London, Harrow, HA1 1HS","url":"https://www.myvue.com/cinema/harrow?SC_CMP=AFF_indtrust","distance":""},{"venue_id":"9442","name":"Odeon
+        Epsom, Epsom","address":"Odeon Epsom, Epsom, Epsom, KT17 4QJ","url":"http://","distance":""},{"venue_id":"9509","name":"VUE
+        Acton, Ealing","address":"VUE Acton, Royale Leisure Park, Western Avenue,
+        Park Royal South, London, Ealing, W3 0PA","url":"https://www.myvue.com/cinema/acton?SC_CMP=AFF_indtrust","distance":""},{"venue_id":"9344","name":"Odeon
+        Oxford George St, Oxford","address":"Odeon Oxford George St, Oxford, Oxford,
+        OX1 2BL","url":"http://","distance":""},{"venue_id":"9345","name":"Odeon Oxford
+        Magdalen St, Oxford","address":"Odeon Oxford Magdalen St, Oxford, Oxford,
+        OX1 3AE","url":"http://","distance":""},{"venue_id":"10476","name":"Cineworld
+        London - Wembley, Brent","address":"Cineworld London - Wembley, London Designer
+        Outlet, Wembley Park Boulevard, London, Brent, HA9 0FD","url":"http://www1.cineworld.co.uk/cinemas/london-wembley","distance":""},{"venue_id":"9386","name":"Odeon
+        Putney, Wandsworth","address":"Odeon Putney, London, Wandsworth, SW15 1SN","url":"http://","distance":""}]'
+    http_version: 
+  recorded_at: Mon, 30 Jan 2017 20:24:40 GMT
+recorded_with: VCR 2.9.3
