@@ -1,3 +1,5 @@
 $('#cinema .name').text('<%= @cinema.name %>')
 $('#cinema .address').text('<%= @cinema.address %>')
+$('#cinema .link').html('<%= link_to "Get Films!", showings_path(cinema_id: @cinema.id), remote: true %>')
+$('#cinema .times').empty()
 $('#cinema').show()

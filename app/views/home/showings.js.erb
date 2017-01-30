@@ -1,0 +1,5 @@
+$('#cinema .times').empty()
+<% @films.each do |film| %>
+  $('#cinema .times').append('<h4><%= film.title %></h4><p><%= film.times.join(", ") %></p>')
+<% end %>
+$('#cinema .link').empty()
